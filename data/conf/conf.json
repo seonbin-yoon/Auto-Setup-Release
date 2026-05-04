@@ -1,0 +1,6 @@
+{
+    "ACTIVE_PLATFORM" : "MdeModulePkg/MdeModulePkg.dsc",
+    "TOOL_CHAIN_TAG" : "GCC",
+    "TARGET_ARCH" : "x64",
+    "MAX_CONCURRENT_THREAD_NUMBER" : ""
+}

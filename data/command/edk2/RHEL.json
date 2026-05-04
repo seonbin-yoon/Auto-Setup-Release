@@ -1,0 +1,14 @@
+{
+    "RHEL" : [
+        {
+            "cmd": ["sudo", "dnf", "upgrade", "-y"],
+            "cwd": "default",
+            "explan": "기존 패키지들을 업데이트 합니다.."
+        },
+        {
+            "cmd": ["sudo",  "dnf", "install", "-y", "@development-tools", "gcc-c++", "libuuid-devel", "acpica-tools", "git", "nasm"],
+            "cwd": "default",
+            "explan": "필수 패키지 설치를 설치합니다.."
+        }
+    ]
+}

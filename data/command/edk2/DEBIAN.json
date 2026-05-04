@@ -1,0 +1,19 @@
+{
+    "DEBIAN" : [
+        {
+            "cmd": ["sudo", "apt", "update"],
+            "cwd": "default",
+            "explan": "최신 패키지 업데이트 목록을 받아옵니다."
+        },
+        {
+            "cmd": ["sudo", "apt", "upgrade", "-y"],
+            "cwd": "default",
+            "explan": "기존 패키지들을 업데이트 합니다.."
+        },
+        {
+            "cmd": ["sudo", "apt", "install", "build-essential", "uuid-dev", "iasl", "git", "nasm", "python-is-python3"],
+            "cwd": "default",
+            "explan": "필수 패키지 설치를 설치합니다.."
+        }
+    ]
+}
